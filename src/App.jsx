@@ -1,15 +1,16 @@
 import React from 'react'
 import Header from './components/Header'
-import Hero from './components/Hero'
+
 import Footer from './components/Footer'
 import FeaturesProp from './components/FeaturesProp'
+import Heroo from './components/Heroo'
 
 
 export default function App() {
   return (
     <div className=' font-title'>
       <Header/>
-      <Hero/>
+      <Heroo/>
       <FeaturesProp/>
       <Footer/>
     </div>

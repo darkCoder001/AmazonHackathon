@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Hero() {
+export default function Heroo() {
   return (
     <div className="flex flex-col md:flex-row bg-[#eff6ff] p-6 md:p-8 md:pl-20 items-center justify-center ">
       <div className="w-full md:w-2/3 flex flex-col gap-4 md:gap-6 px-4 text-center md:text-left">
