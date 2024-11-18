@@ -1,18 +1,16 @@
 import React from 'react'
+import StarryNight from './components/StarryNight'
 import Header from './components/Header'
-
-import Footer from './components/Footer'
 import FeaturesProp from './components/FeaturesProp'
-import Heroo from './components/Heroo'
-
 
 export default function App() {
   return (
-    <div className=' font-title'>
-      <Header/>
-      <Heroo/>
-      <FeaturesProp/>
-      <Footer/>
+    <div className='relative h-screen w-screen overflow-hidden font-title'>
+      <StarryNight />
+      <div className="absolute inset-0 z-10 flex flex-col">
+        <Header />
+        {/* <FeaturesProp /> */}
+      </div>
     </div>
   )
 }

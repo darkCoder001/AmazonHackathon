@@ -2,7 +2,7 @@ import { Search, ChevronDown } from "lucide-react";
 
 export default function Header() {
   return (
-    <div className="flex h-16 items-center justify-between border-b px-4 md:px-6 fixed top-0 left-0 w-full bg-white z-50">
+    <div className="flex h-16 items-center justify-between px-4 md:px-6 fixed top-0 left-0 w-full bg-black text-white z-50">
       {/* Logo */}
       <div className="flex items-center gap-2 cursor-pointer">
         <div className="h-8 w-[100px] flex items-center justify-center">
@@ -33,7 +33,7 @@ export default function Header() {
       {/* Actions */}
       <div className="flex items-center gap-4">
         {/* Start Selling Button - Hidden on small screens */}
-        <div className="hidden md:flex bg-[#f59e0b] px-6 py-2 rounded-2xl cursor-pointer hover:bg-[#FF9900]/90">
+        <div className="hidden md:flex bg-gray-200 text-black px-6 py-2 rounded-2xl cursor-pointer">
           Start Selling
         </div>
 
