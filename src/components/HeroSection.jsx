@@ -7,7 +7,7 @@ export default function HeroSection() {
         
         <Fade  direction="left" duration={2500}>
             <h1 className="max-w-5xl text-4xl font-bold tracking-tight text-white text-opacity-90 sm:text-6xl md:text-7xl lg:text-8xl">
-            X-MCF Versatile Tool for <span className="text-[#6b21a8]">Amazon MCF </span>
+            X-MCF Versatile Tool for <span className="text-[#FF9900]">Amazon MCF </span>
             </h1>
         </Fade>
          <Fade  direction="left" duration={2500}>

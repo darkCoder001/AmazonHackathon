@@ -9,7 +9,7 @@ function CardExample() {
     
     <Fade  direction="left" duration={2500}>
       
-    <div className="flex flex-col lg:flex-row justify-around items-center min-h-screen p-4 gap-6 mt-12">
+    <div className="flex flex-col lg:flex-row justify-around items-center min-h-screen p-4 gap-6 mt-28">
       <div className="w-full max-w-sm">
         <Card
           imageSrc={img1}
