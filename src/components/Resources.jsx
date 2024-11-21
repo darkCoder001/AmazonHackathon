@@ -1,6 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Code, Brain, Sparkles, Cpu } from 'lucide-react';
+import { Fade } from "react-awesome-reveal";
+
 
 const resources = [
   {
@@ -27,6 +29,7 @@ const resources = [
 
 export default function Resources() {
   return (
+    <Fade direction="left" duration={2500}>
     <section className="bg-transparent py-16">
       <div className="container mx-auto px-4">
         <motion.h2 
@@ -63,5 +66,6 @@ export default function Resources() {
         </div>
       </div>
     </section>
+    </Fade>
   );
 }

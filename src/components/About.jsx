@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, Check, Zap } from 'lucide-react';
+import { Fade } from "react-awesome-reveal";
 
 const About = () => {
   const [isSurpriseVisible, setIsSurpriseVisible] = useState(false);
@@ -40,6 +41,7 @@ const About = () => {
   };
 
   return (
+    <Fade direction="left" duration={2500}>
     <motion.div 
       className="min-h-screen flex items-center justify-center p-8 mt-12 md:mt-0 mb-8 md:mb-0"
       initial="hidden"
@@ -140,6 +142,7 @@ const About = () => {
         </motion.div>
       </div>
     </motion.div>
+    </Fade>
   );
 };
 

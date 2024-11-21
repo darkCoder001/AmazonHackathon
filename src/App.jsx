@@ -6,6 +6,7 @@ import CardExample from './components/CardExample';
 import Footer from './components/Footer';
 import About from './components/About';
 import Resources from './components/Resources';
+import { Fade } from "react-awesome-reveal";
 
 export default function App() {
 
@@ -15,6 +16,7 @@ export default function App() {
   const footerRef = useRef(null);
 
   return (
+    <Fade direction="left" duration={2500}>
     <div className="relative min-h-screen w-screen font-title overflow-x-hidden">
       <StarryNight />
       <div className="absolute inset-0 z-10 flex flex-col">
@@ -43,5 +45,6 @@ export default function App() {
         </div>
       </div>
     </div>
+    </Fade>
   );
 }
