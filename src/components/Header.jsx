@@ -33,7 +33,7 @@ export default function Header() {
       
       <div className="flex items-center gap-4">
        
-        <div className="hidden md:flex bg-gray-200 text-black px-6 py-2 rounded-2xl cursor-pointer hover:text-white hover:bg-[#7e22ce] ">
+        <div className="hidden md:flex bg-gray-200 text-black px-6 py-2 rounded-2xl cursor-pointer hover:text-white hover:bg-[#FF9900] ">
           Start Selling
         </div>
 

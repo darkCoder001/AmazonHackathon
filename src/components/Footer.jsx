@@ -25,7 +25,7 @@ export default function Footer() {
   ]
 
   return (
-    <footer className="w-full py-12 bg-[#64748b] bg-opacity-70  text-white">
+    <footer className="w-full py-12 bg-[black] bg-opacity-70  text-white">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-8">
           {footerSections.map((section) => (
