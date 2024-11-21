@@ -1,5 +1,7 @@
 import React from 'react';
 import { Search, ChevronDown } from "lucide-react";
+import { Layers } from 'lucide-react'
+
 
 export default function Header({ refs }) {
   const handleScroll = (ref) => {
@@ -10,7 +12,9 @@ export default function Header({ refs }) {
     <div className="flex h-16 items-center justify-between px-4 md:px-6 fixed top-0 left-0 w-full bg-black text-white z-50">
       <div className="flex items-center gap-2 cursor-pointer">
         <div className="h-8 w-[100px] flex items-center justify-center">
-          <img src="/images/logo.png" alt="logo" />
+        <div className="flex items-center mb-4 md:mb-0">
+            <Layers className="h-8 w-8 mr-2 text-primary" />
+          </div>
         </div>
       </div>
 
