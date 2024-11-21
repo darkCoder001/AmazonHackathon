@@ -9,7 +9,7 @@ function CardExample() {
     
     <Fade  direction="left" duration={2500} triggerOnce>
     
-    <div className="flex flex-col lg:flex-row justify-around items-center min-h-screen p-4 gap-6 mt-28">
+    <div className="flex flex-col lg:flex-row justify-around items-center min-h-screen p-4 md:pb-0 gap-6 mt-28 md:pt-20">
 
       <div className="w-full max-w-sm">
 

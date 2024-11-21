@@ -58,7 +58,7 @@ const About = () => {
             variants={itemVariants}
             className="text-6xl font-bold"
           >
-            About Section
+            About <span className=' text-[#FF9900]'>Section</span>
           </motion.h1>
           
           <motion.p 

@@ -13,19 +13,22 @@ export default function HeroSection() {
         </Fade>
         
         <Fade direction="left" duration={2500}>
-          <p className="mx-auto mt-6 max-w-2xl text-lg text-gray-300 text-opacity-80 sm:text-xl ">
+          <p className="mx-auto mt-6 max-w-2xl text-lg text-gray-300 text-opacity-80 sm:text-xl p-8 ">
             Our innovative solution simplifies order management and fulfillment, streamlining operations across multiple sales channels with Amazon reliable logistics.
           </p>
         </Fade>
   
-        <Fade direction="up" duration={2500}>
-          <motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className="mt-10 px-8 py-3 bg-white text-black hover:bg-[#FF9900] hover:text-white  rounded-full text-lg transition-all duration-300 hover:bg-opacity-90 shadow-lg hover:shadow-xl"
-          >
-            Start Selling Now
-          </motion.button>
+        <Fade direction="left" duration={2500}>
+          <motion.a
+            href="https://github.com/pronoy1510/pronoy1510" 
+            target="_blank" 
+            whileHover={{ scale: 0.8 }}
+            whileTap={{ scale: 0.75 }}
+            className="mt-10 px-8 py-3 bg-white text-black hover:bg-[#FF9900] hover:text-white rounded-full text-lg transition-all duration-300 hover:bg-opacity-90 shadow-lg hover:shadow-xl"
+            >
+            Go to Dashboard
+      </motion.a>
+
         </Fade>
         
         <div className="mt-20 w-full max-w-6xl overflow-hidden rounded-lg">

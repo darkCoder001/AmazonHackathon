@@ -33,7 +33,7 @@ export default function Card({ imageSrc, heading, text }) {
           className="absolute inset-0 w-full h-full object-cover"
         />
         
-        {/* Click Me Overlay */}
+        
         <AnimatePresence>
           {isClickMeVisible && (
             <motion.div 
@@ -46,7 +46,7 @@ export default function Card({ imageSrc, heading, text }) {
           )}
         </AnimatePresence>
 
-        {/* Dark overlay on hover */}
+        
         <AnimatePresence>
           {isContentVisible && (
             <motion.div
@@ -57,8 +57,7 @@ export default function Card({ imageSrc, heading, text }) {
             />
           )}
         </AnimatePresence>
-        
-        {/* Content */}
+      
         <AnimatePresence>
           {isContentVisible && (
             <motion.div 
