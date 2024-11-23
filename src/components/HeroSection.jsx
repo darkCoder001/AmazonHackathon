@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export default function HeroSection() {
   return (
-    <div className="relative min-h-screen w-full bg-black bg-opacity-30 mt-12 ">
+    <div className="relative min-h-screen w-full bg-black bg-opacity-30 mt-6  mb-20">
       <div className="container mx-auto flex min-h-screen flex-col items-center justify-start px-4 py-20 text-center">
         
         <Fade direction="left" duration={2500}>
@@ -31,7 +31,7 @@ export default function HeroSection() {
 
         </Fade>
         
-        <div className="mt-20 w-full max-w-6xl overflow-hidden rounded-lg">
+        <div className="mt-10  w-full max-w-6xl overflow-hidden rounded-lg">
           <img
             src="/images/hero.png"
             alt="UI Dashboard Preview"
