@@ -35,8 +35,8 @@ export default function HeroSection() {
           <img
             src="/images/hero.png"
             alt="UI Dashboard Preview"
-            width={1200}
-            height={600}
+            width={600}
+            height={200}
             className="w-full"
           />
         </div>
