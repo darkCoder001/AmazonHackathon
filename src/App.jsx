@@ -16,9 +16,9 @@ export default function App() {
   const footerRef = useRef(null);
 
   return (
-    <Fade direction="left" duration={2500}>
-    <div className="relative min-h-screen w-screen font-title overflow-x-hidden">
-      <StarryNight />
+    <Fade direction="left" duration={4500}>
+    <div className="relative min-h-screen w-screen font-title overflow-x-hidden bg-black">
+      {/* //<StarryNight /> */}
       <div className="absolute inset-0 z-10 flex flex-col">
         <Header 
           refs={{
@@ -29,13 +29,15 @@ export default function App() {
           }} 
         />
           <HeroSection />
-        
+          
         <div ref={cardRef}>
           <CardExample />
         </div>
         <div ref={aboutRef}>
           <About />
         </div>
+        
+        
         <div ref={resourceRef}>
           <Resources />
         </div>

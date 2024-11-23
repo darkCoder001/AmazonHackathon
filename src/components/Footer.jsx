@@ -25,7 +25,7 @@ export default function Footer() {
   ]
 
   return (
-    <footer className="w-full py-12 bg-[black] bg-opacity-70  text-white">
+    <footer className="w-full py-12 bg-[black] bg-opacity-70  text-white mt-12">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-8">
           {footerSections.map((section) => (
@@ -47,10 +47,10 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-muted">
           <div className="flex items-center mb-4 md:mb-0">
             <Layers className="h-8 w-8 mr-2 text-primary" />
-            <span className="text-xl font-bold">X-MCF</span>
+            <span className="text-xl font-bold">NEX-MCF</span>
           </div>
           <p className="text-sm text-muted-foreground">
-            © {currentYear} X-MCF. All rights reserved.
+            © {currentYear} NEX-MCF. All rights reserved.
           </p>
         </div>
       </div>

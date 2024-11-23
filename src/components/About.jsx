@@ -67,7 +67,7 @@ const About = () => {
             variants={itemVariants}
             className="text-lg text-[#999999]"
           >
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora harum quae ullam quo laboriosam tenetur animi aperiam beatae, voluptatibus, cum atque nisi laborum. Dolores dolore ex eaque repudiandae at quis!
+            Amazon Multi-Channel Fulfillment (MCF) helps businesses store their products in Amazon's warehouses and use Amazon's delivery system to ship orders, no matter where the customer buys from—like a website, app, or online store. It takes care of packing, shipping, and tracking orders so businesses can focus on selling and growing.
           </motion.p>
           
           <motion.div 
@@ -76,15 +76,15 @@ const About = () => {
           >
             <div className="flex items-center space-x-3">
               <Check className="text-green-500" />
-              <span>About 1</span>
+              <span>Store Inventory: Businesses keep their products in Amazon's warehouses.</span>
             </div>
             <div className="flex items-center space-x-3">
               <Zap className="text-blue-500" />
-              <span>About 2</span>
+              <span>Ship Anywhere: Amazon packs and delivers orders from any sales channel, like websites or online stores.</span>
             </div>
             <div className="flex items-center space-x-3">
               <X className="text-red-500" />
-              <span>About 3</span>
+              <span>Save Time: It handles storage, shipping, and tracking, making order management easier for businesses.</span>
             </div>
           </motion.div>
         </motion.div>
@@ -133,7 +133,7 @@ const About = () => {
                 >
                   <div className="text-center p-4">
                     <h2 className="text-2xl font-bold mb-4">Surprise!</h2>
-                    <p>Discover the power of our innovative solution.</p>
+                    <p>Amazon launched Multi-Channel Fulfillment (MCF) in 2002 as part of its strategy to expand logistics services beyond its own marketplace.</p>
                   </div>
                 </motion.div>
               )}

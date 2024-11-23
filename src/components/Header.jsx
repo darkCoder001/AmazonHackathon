@@ -39,7 +39,7 @@ export default function Header({ refs }) {
 
       <div className="flex items-center gap-4">
         <button
-          onClick={() => window.location.href = 'https://github.com/pronoy1510/pronoy1510'}
+          onClick={() => window.location.href = 'https://nexmcf.vercel.app/'}
           className="hidden md:flex bg-gray-200 text-black px-6 py-2 rounded-2xl cursor-pointer hover:text-white hover:bg-[#FF9900]"
         >
           Start Selling
