@@ -16,7 +16,7 @@ export default function App() {
   const footerRef = useRef(null);
 
   return (
-    <Fade direction="left" duration={4500}>
+    
     <div className="relative min-h-screen w-screen font-title overflow-x-hidden bg-black">
       {/* //<StarryNight /> */}
       <div className="absolute inset-0 z-10 flex flex-col">
@@ -47,6 +47,5 @@ export default function App() {
         </div>
       </div>
     </div>
-    </Fade>
   );
 }

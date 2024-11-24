@@ -20,7 +20,7 @@ export default function HeroSection() {
   
         <Fade direction="left" duration={2500}>
           <motion.a
-            href="https://nexmcf.vercel.app/" 
+            href="https://nexmcf.vercel.app/auth/login" 
             target="_blank" 
             whileHover={{ scale: 0.8 }}
             whileTap={{ scale: 0.75 }}

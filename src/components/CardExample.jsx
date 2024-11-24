@@ -15,23 +15,24 @@ function CardExample() {
 
         <Card
           imageSrc={img1}
-          heading="Feature 1"
-          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit ut."
+          heading="Smart Order Management with Gen AI"
+          text="Leverage generative AI to optimize order processing, ensuring accurate placement, quicker fulfillment, and seamless integration with Amazon MCF for a smarter, more efficient workflow."
         />
       </div>
       <div className="w-full max-w-sm">
         <Card
           imageSrc={img2}
-          heading="Feature 2"
-          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit ut."
-        />
+          heading="All Your Orders, One Dashboard"
+          text="
+      All Your Orders, One Dashboard
+      Manage orders from Shopify, eBay, or your personal website in a single dashboard, seamlessly connected to Amazon MCF for hassle-free fulfillment."
+              />
       </div>
       <div className="w-full max-w-sm">
         <Card
           imageSrc={img3}
-          heading="Feature 3"
-          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit ut."
-        />
+          heading="User-Centric Secure Access"
+          text="Protect user data with secure OAuth authentication, ensuring safe and reliable order syncing from platforms like Shopify and eBay."/>
       </div>
     </div>
     </Fade>
