@@ -1,7 +1,6 @@
 import React from 'react';
-import { Search, ChevronDown } from "lucide-react";
-import { Layers } from 'lucide-react'
-
+import { Search } from "lucide-react";
+import { Layers } from 'lucide-react';
 
 export default function Header({ refs }) {
   const handleScroll = (ref) => {
@@ -12,28 +11,24 @@ export default function Header({ refs }) {
     <div className="flex h-16 items-center justify-between px-4 md:px-6 fixed top-0 left-0 w-full bg-black text-white z-50">
       <div className="flex items-center gap-2 cursor-pointer">
         <div className="h-8 w-[100px] flex items-center justify-center">
-        <div className="flex items-center mb-4 md:mb-0">
+          <div className="flex items-center mb-4 md:mb-0">
             <Layers className="h-8 w-8 mr-2 text-primary" />
           </div>
         </div>
       </div>
 
       <div className="hidden md:flex gap-8">
-        <div className="cursor-pointer flex items-center gap-1" onClick={() => handleScroll(refs.resource)}>
-          Resources
-          <ChevronDown className="h-4 w-4" />
+        <div className="cursor-pointer" onClick={() => handleScroll(refs.resource)}>
+          Gen AI
         </div>
-        <div className="cursor-pointer flex items-center gap-1" onClick={() => handleScroll(refs.card)}>
+        <div className="cursor-pointer" onClick={() => handleScroll(refs.card)}>
           Features
-          <ChevronDown className="h-4 w-4" />
         </div>
-        <div className="cursor-pointer flex items-center gap-1" onClick={() => handleScroll(refs.about)}>
+        <div className="cursor-pointer" onClick={() => handleScroll(refs.about)}>
           About
-          <ChevronDown className="h-4 w-4" />
         </div>
-        <div className="cursor-pointer flex items-center gap-1" onClick={() => handleScroll(refs.footer)}>
+        <div className="cursor-pointer" onClick={() => handleScroll(refs.footer)}>
           Footer
-          <ChevronDown className="h-4 w-4" />
         </div>
       </div>
 
@@ -44,11 +39,6 @@ export default function Header({ refs }) {
         >
           Start Selling
         </button>
-
-        <div className="flex items-center justify-center cursor-pointer p-2">
-          <Search className="h-5 w-5" />
-          <span className="sr-only">Search</span>
-        </div>
       </div>
     </div>
   );
