@@ -17,7 +17,7 @@ export default function Card({ imageSrc, heading, text }) {
 
   return (
     <motion.div
-      className="group rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 ease-in-out hover:scale-105 cursor-pointer relative"
+      className="group rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 ease-in-out hover:scale-105 cursor-pointer relative bg-gradient-to-r from-[#FF9900] to-orange-600 "
       style={{
         background: 'linear-gradient(45deg, rgba(88, 28, 135, 0.3), rgba(255, 255, 255, 0.1), rgba(88, 28, 135, 0.3))',
         padding: '3px',

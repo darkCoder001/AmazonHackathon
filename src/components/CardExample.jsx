@@ -2,7 +2,7 @@ import React from 'react';
 import Card from './Card';
 import img1 from '/images/Feature1.png';
 import img2 from '/images/Feature2.png';
-import img3 from '/images/Feature3.jpg';
+import img3 from '/images/Feature3.png';
 import { Fade } from "react-awesome-reveal";
 function CardExample() {
   return (

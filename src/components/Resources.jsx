@@ -38,7 +38,7 @@ export default function Resources() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          How We're Using AI
+          How We're Using <span className='text-[#FF9900]'> Gen AI</span> 
         </motion.h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {resources.map((resource, index) => (
