@@ -6,23 +6,23 @@ import { Fade } from "react-awesome-reveal";
 
 const resources = [
   {
-    title: 'Rescource 1',
-    description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque animi ducimus alias quam! Qui voluptas blanditiis doloribus amet, reprehenderit harum natus aspernatur consectetur veniam eligendi, nesciunt nulla delectus aliquam. Asperiores.',
+    title: 'Smart Order   Gen AI',
+    description: 'Using Gen AI, we instantly convert orders from the dashboard into the exact format needed for Amazon Fulfillment. No manual work, just seamless automation!',
     icon: Code,
   },
   {
-    title: 'Rescource 2',
-    description:  'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque animi ducimus alias quam! Qui voluptas blanditiis doloribus amet, reprehenderit harum natus aspernatur consectetur veniam eligendi, nesciunt nulla delectus aliquam. Asperiores.',
+    title: 'Check Orders with Gen AI',
+    description:  'Track where your orders come from with an interactive map and get region-wise order percentages—all powered by Gen AI for smarter insights!',
     icon: Brain,
   },
   {
-    title: 'Rescource 3',
-    description:  'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque animi ducimus alias quam! Qui voluptas blanditiis doloribus amet, reprehenderit harum natus aspernatur consectetur veniam eligendi, nesciunt nulla delectus aliquam. Asperiores.',
+    title: 'Ask Your Orders: Chat with Gen AI',
+    description:  'Use our smart chatbot to track your orders effortlessly—just ask, and Gen AI will tell you where they are in real-time!',
     icon: Cpu,
   },
   {
-    title: 'Rescource 4',
-    description:  'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque animi ducimus alias quam! Qui voluptas blanditiis doloribus amet, reprehenderit harum natus aspernatur consectetur veniam eligendi, nesciunt nulla delectus aliquam. Asperiores.',
+    title: 'Store Smart, Save More with Gen AI',
+    description:  'Gen AI analyzes and picks the best storage location for your orders to cut transport costs and boost efficiency!',
     icon: Sparkles,
   },
 ];
