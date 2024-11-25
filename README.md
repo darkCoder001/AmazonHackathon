@@ -1,8 +1,22 @@
-# React + Vite
+# Nex-MCF
+This is the prototype landing page for Amazon Sambhav Hackathon 2024.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+*Note: Use the go to dashboard button to visit the NEX-MCF dashboard.*
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Theme No. 3
+Develop a user-friendly tool or plug-in that seamlessly integrates online stores with Amazon's Multi-Channel Fulfillment service. This would allow businesses to easily leverage Amazon's robust logistics network to store inventory and fulfill orders across their various sales channels, with minimal to no additional coding effort required from the business owners.
+
+## How to run?
+- Clone this repository using:
+  ```
+  git clone https://github.com/berobbb/AmazonHackathon
+  ```
+- Install the needed packages
+  ```
+  npm install
+  ```
+- Run the code
+  ```
+  npm run dev
+  ```
