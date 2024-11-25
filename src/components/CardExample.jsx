@@ -1,8 +1,6 @@
 import React from 'react';
 import Card from './Card';
-import img1 from '/images/Feature1.png';
-import img2 from '/images/Feature2.png';
-import img3 from '/images/Feature3.png';
+
 import { Fade } from "react-awesome-reveal";
 function CardExample() {
   return (
@@ -14,14 +12,14 @@ function CardExample() {
       <div className="w-full max-w-sm">
 
         <Card
-          imageSrc={img1}
+       
           heading="Smart Order Management with Gen AI"
           text="Leverage generative AI to optimize order processing, ensuring accurate placement, quicker fulfillment, and seamless integration with Amazon MCF for a smarter, more efficient workflow."
         />
       </div>
       <div className="w-full max-w-sm">
         <Card
-          imageSrc={img2}
+        
           heading="All Your Orders, One Dashboard"
           text="
       All Your Orders, One Dashboard
@@ -30,9 +28,9 @@ function CardExample() {
       </div>
       <div className="w-full max-w-sm">
         <Card
-          imageSrc={img3}
+       
           heading="User-Centric Secure Access"
-          text="Protect user data with secure OAuth authentication, ensuring safe and reliable order syncing from platforms like Shopify and eBay."/>
+          text="Protect user data with secure OAuth authentication, ensuring safe and reliable order syncing from platforms like Shopify and eBay, all in one seamless system connected to Amazon MCF for hassle-free fulfillment."/>
       </div>
     </div>
     </Fade>
