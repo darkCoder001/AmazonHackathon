@@ -79,11 +79,11 @@ const About = () => {
               <span>Store Inventory: Businesses keep their products in Amazon's warehouses.</span>
             </div>
             <div className="flex items-center space-x-3">
-              <Zap className="text-blue-500" />
+              <Check className="text-blue-500" />
               <span>Ship Anywhere: Amazon packs and delivers orders from any sales channel, like websites or online stores.</span>
             </div>
             <div className="flex items-center space-x-3">
-              <X className="text-red-500" />
+              <Check className="text-red-500" />
               <span>Save Time: It handles storage, shipping, and tracking, making order management easier for businesses.</span>
             </div>
           </motion.div>

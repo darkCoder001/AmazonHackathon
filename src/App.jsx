@@ -20,7 +20,7 @@ export default function App() {
     <div className="relative min-h-screen w-screen font-title overflow-x-hidden bg-black">
       {/* //<StarryNight /> */}
       <div className="absolute inset-0 z-10 flex flex-col">
-        <Header 
+        <Header className="hidden md:block"
           refs={{
             resource: resourceRef,
             about: aboutRef,

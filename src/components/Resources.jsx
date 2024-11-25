@@ -6,7 +6,7 @@ import { Fade } from "react-awesome-reveal";
 
 const resources = [
   {
-    title: 'Smart Order   Gen AI',
+    title: 'Smart Order with Gen AI',
     description: 'Using Gen AI, we instantly convert orders from the dashboard into the exact format needed for Amazon Fulfillment. No manual work, just seamless automation!',
     icon: Code,
   },

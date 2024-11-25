@@ -8,7 +8,7 @@ export default function Header({ refs }) {
   };
 
   return (
-    <div className="flex h-16 items-center justify-between px-4 md:px-6 fixed top-0 left-0 w-full bg-black text-white z-50">
+    <div className="md:flex  hidden h-16 items-center justify-between px-4 md:px-6 fixed top-0 left-0 w-full bg-black text-white z-50 ">
       <div className="flex items-center gap-2 cursor-pointer">
         <div className="h-8 w-[100px] flex items-center justify-center">
           <div className="flex items-center mb-4 md:mb-0">
@@ -37,7 +37,7 @@ export default function Header({ refs }) {
           onClick={() => window.location.href = 'https://nexmcf.vercel.app/auth/login'}
           className="hidden md:flex bg-gray-200 text-black px-6 py-2 rounded-2xl cursor-pointer hover:text-white hover:bg-[#FF9900]"
         >
-          Start Selling
+          Get started
         </button>
       </div>
     </div>
