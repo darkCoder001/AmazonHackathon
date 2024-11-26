@@ -34,10 +34,10 @@ export default function Header({ refs }) {
 
       <div className="flex items-center gap-4">
         <button
-          onClick={() => window.location.href = 'https://nexmcf.vercel.app/auth/login'}
+          onClick={() => window.location.href = 'https://www.youtube.com/watch?v=2DhOPXZ21l8'}
           className="hidden md:flex bg-gray-200 text-black px-6 py-2 rounded-2xl cursor-pointer hover:text-white hover:bg-[#FF9900]"
         >
-          Get started
+          Demo Video
         </button>
       </div>
     </div>
