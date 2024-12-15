@@ -20,3 +20,5 @@ Develop a user-friendly tool or plug-in that seamlessly integrates online stores
   ```
   npm run dev
   ```
+
+  Go To The [Dashboard Repo](https://github.com/darkCoder001/NEX-MCF-dashboard)
